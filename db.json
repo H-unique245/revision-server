@@ -140,8 +140,8 @@
       "Description": "Tata Nexon with all original documents",
       "Price": 800000
     }
-  ]
-  ,
+  ],
+  "wishlist":[],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 }
   ],
