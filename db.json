@@ -1,82 +1,60 @@
 {
-  "user": [
+  "users": [
     {
-        "id": 1,
-        "u_name": "Ellen Chaloner",
-        "email": "echaloner0@latimes.com",
-        "password": "37nrYk",
-        "tasks": []
+      "email": "uni@gmail.com",
+      "password": "$2a$10$LXiIW.XBXYEXPcN807fS7uUfMcgrYIT6bs76H2fihXSeLBihgERKC",
+      "name": "hemant",
+      "id": 1
     },
     {
-        "id": 2,
-        "u_name": "Thibaud Oxbury",
-        "email": "toxbury1@jiathis.com",
-        "password": "aQYwJqMi4",
-        "tasks": [
-            {
-                "id": 1,
-                "date":"07/12/2022",
-                "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit"
-              },
-              {
-                "id": 2,
-                "date":"07/12/2022",
-                "title": "qui est esse"
-              },
-              {
-                "id": 3,
-                "date":"07/12/2022",
-                "title": "ea molestias quasi exercitationem repellat qui ipsa sit aut"
-              }
-        ]
+      "email": "something@gmail.com",
+      "password": "$2a$10$ltb7NjVS9jVs69kt2VqjGe9ZKgNUCBgwyPhqBLpaT0j4bwTLE5mYi",
+      "name": "something",
+      "id": 2
     },
     {
-        "id": 3,
-        "u_name": "Brodie Cranefield",
-        "email": "bcranefield2@mail.ru",
-        "password": "6cTAqhbXL",
-        "tasks": [
-            {
-                "id": 1,
-                "date":"07/12/2022",
-                "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit"
-              },
-              {
-                "id": 2,
-                "date":"07/12/2022",
-                "title": "qui est esse"
-              },
-              {
-                "id": 3,
-                "date":"07/12/2022",
-                "title": "ea molestias quasi exercitationem repellat qui ipsa sit aut"
-              }
-        ]
+      "email": "aher@gmail.com",
+      "password": "$2a$10$9jXLs1TEAiLqqNNKQZcAbuJL91jX4stfz/DYmTjHaci7LEcvocuTO",
+      "name": "hemant",
+      "id": 3
     }
-],
+  ],
   "cars": [
     {
       "id": 1,
       "brand": "Tata",
-			"type":"Manual",
       "year": 2019,
+      "type": "Manual",
       "kms": 10000,
       "Description": "Tata Altroz with all original documents",
       "Price": 500000
     },
     {
-      "id": 2,
-      "brand": "Tata",
-			"type":"AMT",
-      "year": 2017,
-      "kms": 8000,
-      "Description": "Tata Nexon with all original documents",
-      "Price": 800000
+      "brand": "Maruti",
+      "year": 2019,
+      "type": "Automatic",
+      "kms": 10000,
+      "Description": "Tata Altroz with all original documents",
+      "Price": 100000,
+      "id": 2
+    },
+    {
+      "brand": "Toyota",
+      "year": 2020,
+      "type": "Automatic",
+      "kms": 10000,
+      "Description": "Tata Altroz with all original documents",
+      "Price": 120000,
+      "id": 3
+    },
+    {
+      "brand": "Toyota",
+      "year": 2020,
+      "type": "Automatic",
+      "kms": 10000,
+      "Description": "Tata Altroz with all original documents",
+      "Price": 120000,
+      "id": 4
     }
-  ],
-  "wishlist":[],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  ]
 }
